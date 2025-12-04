@@ -39,3 +39,15 @@ This project is a web-based **Student Attendance and Result Management System** 
 ## Running the Project Locally
 
 1. **Clone the repository**
+
+2. **Start a simple local server**
+
+## AWS Deployment 
+
+- Upload the frontend files (`index.html`, `style.css`, `app.js`, `data.js`, `api.js`) to **S3**, **Amplify**, or host them on **EC2**.
+- Configure a database (for example, **RDS PostgreSQL/MySQL** or **DynamoDB**) with tables for:
+- Students  
+- Attendance  
+- Results
+- Use **CloudFront** in front of your hosting service to get a secure **HTTPS** URL.
+- Optionally enable **CloudWatch** to monitor logs and performance.
